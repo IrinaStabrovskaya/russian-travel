@@ -1,0 +1,53 @@
+.cover__link-background {
+  margin: 0 auto;
+  padding: 33px 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.cover__link-background:hover {
+  cursor: none;
+}
+
+@media screen and (min-width: 425px) {
+  .cover__link-background {
+    padding: 45px 0;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .cover__link-background {
+    padding: 55px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cover__link-background {
+    min-width: 768px;
+    min-height: 480px;
+    padding: 115px 0;
+  }
+
+  .cover__link-background:hover {
+    background-color: rgba(42, 44, 47, .8);
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__link-background {
+    padding: 195px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__link-background {
+    padding: 245px 0;
+  }
+}
+
+
+

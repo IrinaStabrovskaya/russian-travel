@@ -1,0 +1,16 @@
+.place__website {
+  margin: 32px auto 0;
+  min-width: 288px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .place__website {
+    margin: 0;
+    width: 100%;
+    height: min-content;
+    display: grid;
+    row-gap: 12px;
+    align-self: end;
+  }
+}
