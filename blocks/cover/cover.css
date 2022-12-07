@@ -1,5 +1,5 @@
 .cover {
-  background: rgba( 42, 44, 47, .3 ) url(../../images/cover__background.jpg) no-repeat center / cover;
+  background: url(../../images/cover__background.jpg) no-repeat center / cover;
   display: flex;
   margin-top: 66px;
   min-width: 320px;
@@ -10,23 +10,18 @@
 
 @media screen and (min-width: 768px) {
   .cover {
-    margin: 90px auto;
-    max-width: 1184px;
+    margin: 90px auto 88px;
   }
- }
+}
 
- @media screen and (min-width: 768px) {
-  .cover {
-    margin: 94px auto;
-    max-width: 1184px;
-  }
- }
-
- @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .cover {
     margin: 92px auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
     max-width: 1184px;
   }
- }
-
-
+}

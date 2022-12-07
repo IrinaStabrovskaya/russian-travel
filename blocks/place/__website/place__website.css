@@ -2,6 +2,8 @@
   margin: 32px auto 0;
   min-width: 288px;
   width: 90%;
+  display: grid;
+  row-gap: 12px;
 }
 
 @media screen and (min-width: 768px) {
@@ -9,8 +11,6 @@
     margin: 0;
     width: 100%;
     height: min-content;
-    display: grid;
-    row-gap: 12px;
     align-self: end;
   }
 }

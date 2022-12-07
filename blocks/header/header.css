@@ -1,9 +1,8 @@
 .header {
-  display: grid;
+  display: flex;
   width: 90%;
   margin: 16px auto 0;
-  grid-template-columns: auto min-content min-content;
-  column-gap: 18px;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
