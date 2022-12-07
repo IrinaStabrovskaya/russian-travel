@@ -13,7 +13,6 @@
 
 @media screen and (min-width: 1024px) {
   .lead__main-illustration {
-    margin: 0 auto;
     max-width: 928px;
   }
 }

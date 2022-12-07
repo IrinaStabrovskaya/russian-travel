@@ -10,8 +10,6 @@
 
 @media screen and (min-width: 425px) {
   .lead__subtitle {
-
-    width: 90%;
     font-size: 20px;
     line-height: 1.21;
   }
@@ -20,12 +18,10 @@
 @media screen and (min-width: 540px) {
   .lead__subtitle {
     max-width: 490px;
-    width: 90%;
     font-size: 25px;
     line-height: 1.2;
   }
 }
-
 
 @media screen and (min-width: 768px) {
   .lead__subtitle {
@@ -35,6 +31,3 @@
     font-size: 30px;
   }
 }
-
-
-
